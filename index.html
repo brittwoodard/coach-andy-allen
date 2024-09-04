@@ -9,10 +9,10 @@ hide-from-google: false
 ---
 
 <!-- Hero Banner Mobile -->
-<section>
+<section class="md:hidden">
 
   <!-- Text -->
-   <div class="pt-16 pb-4 px-5p lg:hidden">
+   <div class="pt-16 pb-4 px-5p">
     <h1 class="text-center heading-md">
       Activate your <span class="font-light">mind</span><br>
       Unleash your <span class="font-light">peak potential</span>
@@ -22,6 +22,21 @@ hide-from-google: false
    <!-- Image -->
    <div class="bg-cover bg-no-repeat bg-[center] h-[80vh]" style="background-image: url('/images/coach-andy-allen-6.png');"></div>
 
+</section>
+
+<!-- Hero Banner iPad -->
+<section class="hidden md:block lg:hidden h-[100vh]">
+
+  <!-- Image -->
+  <div class="bg-contain bg-no-repeat bg-[bottom left] min-h-60vh bottom-0 left-0" style="background-image: url('/images/coach-andy-allen-6.png');"></div>
+
+  <!-- Text -->
+  <div class="relative top-12 right-0">
+    <h1 class="text-center heading-md">
+      Activate your <span class="font-light">mind</span><br>
+      Unleash your <span class="font-light">peak potential</span>
+    </h1>
+  </div>
 </section>
 
 <!-- Hero Banner Desktop -->
@@ -127,14 +142,14 @@ hide-from-google: false
 </section>
 
 <!-- Contact -->
-<footer class="grid grid-cols-3 p-10p">
+<footer class="grid md:grid-cols-3 p-10p">
 
   <!-- Left Column -->
   <div class="col-span-2">
-    <h2 class="heading-lg mb-6 max-w-[38rem]">Contact <span class="font-extralight">Coach Andy Allen</span></h2>
+    <h2 class="heading-md lg:heading-lg mb-6 max-w-[23rem] lg:max-w-[38rem]">Contact <span class="font-light md:font-extralight">Coach Andy Allen</span></h2>
 
     <!-- Form -->
-    <form class="rounded-none max-w-[38rem] w-full">
+    <form class="rounded-none max-w-[23rem] lg:max-w-[38rem] w-full">
 
       <!-- Name -->
       <div class="relative mb-6">
@@ -166,7 +181,7 @@ hide-from-google: false
   </div>
 
   <!-- Right Column -->
-   <div class="flex justify-center items-center">
+   <div class="hidden md:flex justify-center items-center">
     <img src="/images/logos/coach-andy-allen-logo-4.png" class="h-32">
    </div>
 </footer>
