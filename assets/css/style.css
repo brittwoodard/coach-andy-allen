@@ -557,6 +557,12 @@ p:last-child {
 .m-2 {
   margin: 0.5rem;
 }
+.m-5p {
+  margin: 5%;
+}
+.m-10p {
+  margin: 10%;
+}
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
