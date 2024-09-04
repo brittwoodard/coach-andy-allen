@@ -524,8 +524,29 @@ p:last-child {
 .top-12 {
   top: 3rem;
 }
+.right-\[5rem\] {
+  right: 5rem;
+}
+.top-\[14rem\] {
+  top: 14rem;
+}
+.right-\[6rem\] {
+  right: 6rem;
+}
+.right-\[18\%\] {
+  right: 18%;
+}
+.top-\[28\%\] {
+  top: 28%;
+}
+.right-\[12\%\] {
+  right: 12%;
+}
 .z-20 {
   z-index: 20;
+}
+.z-10 {
+  z-index: 10;
 }
 .col-span-2 {
   grid-column: span 2 / span 2;
@@ -599,6 +620,9 @@ p:last-child {
 }
 .h-screen {
   height: 100vh;
+}
+.h-\[70vh\] {
+  height: 70vh;
 }
 .min-h-\[70vh\] {
   min-height: 70vh;
@@ -788,11 +812,17 @@ p:last-child {
 }
 
 @media (min-width: 1024px) {
+  .lg\:right-\[18\%\] {
+    right: 18%;
+  }
   .lg\:grid {
     display: grid;
   }
   .lg\:hidden {
     display: none;
+  }
+  .lg\:h-\[80vh\] {
+    height: 80vh;
   }
   .lg\:max-w-\[38rem\] {
     max-width: 38rem;
