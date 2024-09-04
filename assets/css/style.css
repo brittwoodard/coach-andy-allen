@@ -518,11 +518,11 @@ p:last-child {
 .left-0 {
   left: 0px;
 }
-.top-12 {
-  top: 3rem;
-}
 .right-0 {
   right: 0px;
+}
+.top-12 {
+  top: 3rem;
 }
 .z-20 {
   z-index: 20;
@@ -605,9 +605,6 @@ p:last-child {
 }
 .w-full {
   width: 100%;
-}
-.max-w-\[38rem\] {
-  max-width: 38rem;
 }
 .max-w-\[23rem\] {
   max-width: 23rem;
@@ -751,13 +748,6 @@ p:last-child {
 
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
-
-@media (min-width: 768px) {
-    .md\:heading-lg {
-    font-size: 2.5rem;
-    line-height: 1.2em;
-  }
-}
 
 @media (min-width: 1024px) {
     .lg\:heading-lg {
