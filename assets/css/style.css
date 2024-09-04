@@ -809,6 +809,9 @@ nav a:hover {
 }
 
 @media (min-width: 768px) {
+  .md\:right-\[23\%\] {
+    right: 23%;
+  }
   .md\:block {
     display: block;
   }
@@ -835,6 +838,9 @@ nav a:hover {
   }
   .lg\:top-\[40\%\] {
     top: 40%;
+  }
+  .lg\:right-\[30\%\] {
+    right: 30%;
   }
   .lg\:grid {
     display: grid;
