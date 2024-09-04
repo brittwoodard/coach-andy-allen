@@ -111,41 +111,46 @@ hide-from-google: false
 </section>
 
 <!-- Contact -->
-<footer class="grid grid-cols-3">
+<footer class="grid grid-cols-3 p-10p">
 
   <!-- Left Column -->
   <div class="col-span-2">
-    <h2>Contact Coach Andy Allen</h2>
+    <h2 class="heading-lg mb-6 max-w-[38rem]">Contact <span class="font-extralight">Coach Andy Allen</span></h2>
 
     <!-- Form -->
-    <form class="rounded-none max-w-lg w-full">
+    <form class="rounded-none max-w-[38rem] w-full">
 
       <!-- Name -->
       <div class="relative mb-6">
         <input type="text" name="name" id="name" required
-          class="w-full border-b-2 border-gray-300 focus:outline-none focus:border-feature peer">
+          class="w-full border-b border-dark focus:outline-none focus:border-feature bg-transparent mb-2">
         <label for="name" class="absolute left-0 -bottom-5 text-gray-600 text-sm">Name</label>
       </div>
 
       <!-- Email -->
-      <div class="relative mb-6">
+      <div class="relative mb-10">
         <input type="email" name="email" id="email" required
-          class="w-full border-b-2 border-gray-300 focus:outline-none focus:border-feature peer">
+          class="w-full border-b border-dark focus:outline-none focus:border-feature bg-transparent mb-2">
         <label for="email" class="absolute left-0 -bottom-5 text-gray-600 text-sm">Email</label>
       </div>
 
       <!-- Message -->
       <div class="relative mb-6">
         <textarea name="message" id="message" required
-          class="w-full h-32 p-4 border border-gray-300 focus:outline-none focus:border-feature"
+          class="w-full h-32 p-2 border border-dark focus:outline-none focus:border-feature bg-transparent"
           placeholder="Type your message here"></textarea>
       </div>
 
       <!-- Submit button -->
-      <button type="submit" class="button hover:bg-blue-600">
+      <button type="submit" class="button">
         Submit
       </button>
     </form>
 
   </div>
+
+  <!-- Right Column -->
+   <div class="flex justify-center items-center">
+    <img src="/images/logos/coach-andy-allen-logo-4.png" class="h-32">
+   </div>
 </footer>
