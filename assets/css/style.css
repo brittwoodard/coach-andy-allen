@@ -836,11 +836,11 @@ nav a:hover {
   .lg\:right-\[18\%\] {
     right: 18%;
   }
-  .lg\:top-\[40\%\] {
-    top: 40%;
-  }
   .lg\:right-\[30\%\] {
     right: 30%;
+  }
+  .lg\:top-\[40\%\] {
+    top: 40%;
   }
   .lg\:grid {
     display: grid;
