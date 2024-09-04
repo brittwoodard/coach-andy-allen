@@ -350,6 +350,15 @@ p {
 p:last-child {
   margin-bottom: 0px;
 }
+nav a {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+nav a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(202 157 79 / var(--tw-text-opacity));
+  transition-duration: 500ms;
+}
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -457,10 +466,6 @@ p:last-child {
   --tw-contain-style:  ;
 }
 /* Typography */
-.heading-lg {
-  font-size: 2.5rem;
-  line-height: 1.2em;
-}
 .heading-md {
   margin-bottom: 1rem;
   font-size: 1.5rem;
@@ -518,50 +523,23 @@ p:last-child {
 .left-0 {
   left: 0px;
 }
-.right-0 {
-  right: 0px;
-}
-.top-12 {
-  top: 3rem;
-}
-.right-\[5rem\] {
-  right: 5rem;
-}
-.top-\[14rem\] {
-  top: 14rem;
-}
-.right-\[6rem\] {
-  right: 6rem;
-}
-.right-\[18\%\] {
-  right: 18%;
+.right-\[12\%\] {
+  right: 12%;
 }
 .top-\[28\%\] {
   top: 28%;
 }
-.right-\[12\%\] {
-  right: 12%;
+.z-10 {
+  z-index: 10;
 }
 .z-20 {
   z-index: 20;
 }
-.z-10 {
-  z-index: 10;
-}
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
-.col-span-3 {
-  grid-column: span 3 / span 3;
-}
 .m-2 {
   margin: 0.5rem;
-}
-.m-5p {
-  margin: 5%;
-}
-.m-10p {
-  margin: 10%;
 }
 .mx-4 {
   margin-left: 1rem;
@@ -588,8 +566,8 @@ p:last-child {
 .ml-4 {
   margin-left: 1rem;
 }
-.mt-16 {
-  margin-top: 4rem;
+.ml-auto {
+  margin-left: auto;
 }
 .mt-4 {
   margin-top: 1rem;
@@ -621,17 +599,20 @@ p:last-child {
 .h-\[6rem\] {
   height: 6rem;
 }
+.h-\[70vh\] {
+  height: 70vh;
+}
 .h-\[80vh\] {
   height: 80vh;
 }
 .h-screen {
   height: 100vh;
 }
-.h-\[70vh\] {
-  height: 70vh;
-}
 .min-h-\[70vh\] {
   min-height: 70vh;
+}
+.w-\[70\%\] {
+  width: 70%;
 }
 .w-full {
   width: 100%;
@@ -647,9 +628,6 @@ p:last-child {
 }
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 .flex-wrap {
   flex-wrap: wrap;
@@ -668,6 +646,9 @@ p:last-child {
 }
 .gap-4 {
   gap: 1rem;
+}
+.gap-8 {
+  gap: 2rem;
 }
 .rounded-none {
   border-radius: 0px;
@@ -721,10 +702,6 @@ p:last-child {
   padding-left: 5%;
   padding-right: 5%;
 }
-.py-10p {
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -733,6 +710,9 @@ p:last-child {
 }
 .pt-16 {
   padding-top: 4rem;
+}
+.pt-8 {
+  padding-top: 2rem;
 }
 .text-center {
   text-align: center;
@@ -751,9 +731,6 @@ p:last-child {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-.font-extralight {
-  font-weight: 200;
 }
 .font-light {
   font-weight: 300;
@@ -823,9 +800,6 @@ p:last-child {
   }
   .lg\:grid {
     display: grid;
-  }
-  .lg\:hidden {
-    display: none;
   }
   .lg\:h-\[80vh\] {
     height: 80vh;
