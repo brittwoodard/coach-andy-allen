@@ -13,9 +13,20 @@
     }
 
     body {
-        @apply font-sans font-light text-dark bg-light antialiased
+        @apply font-sans font-medium text-dark bg-light antialiased
     }
 
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-black uppercase leading-[1.2em]
+    }
+
+    p {
+        @apply mb-4
+    }
+
+    p:last-child {
+        @apply mb-0
+    }
 }
 
 

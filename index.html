@@ -9,17 +9,24 @@ hide-from-google: false
 ---
 
 <!-- Hero Banner -->
-<section>
-  <h1>
-    Activate your mind<br>
-    Unleash your peak potential
-  </h1>
+<section class="grid grid-cols-5 h-[100vh]">
+
+  <!-- Image -->
+  <div class="col-span-2 bg-contain bg-no-repeat bg-[bottom left] mt-16" style="background-image: url('/images/coach-andy-allen-6.png');"></div>
+
+  <!-- Text -->
+  <div class="col-span-3 py-10p pr-5p flex justify-center items-center">
+    <h1 class="text-center text-[2.5rem]">
+      Activate your <span class="font-light">mind</span><br>
+      Unleash your <span class="font-light">peak potential</span>
+    </h1>
+  </div>
 </section>
 
 
 <!-- Banner -->
-<section class="bg-dark p-5p">
-
+<section class="bg-main p-5p flex items-center justify-center">
+  <img src="/images/logos/coach-andy-allen-logo-1.jpg" class="h-[6rem]">
 </section>
 
 
@@ -27,7 +34,7 @@ hide-from-google: false
 <section class="grid grid-cols-3">
 
   <!-- Text -->
-  <div class="col-span-2">
+  <div class="col-span-2 p-10p">
     <h2>Coach Andy Allen</h2>
     <div>
       <p>Coach Andy Allen is a renowned coach’s coach and a teacher’s teacher with over two decades of experience in
@@ -53,7 +60,7 @@ hide-from-google: false
   </div>
 
   <!-- Image -->
-  <div class="bg-image-style" style="background-image: url('#')"></div>
+  <div class="bg-image-style" style="background-image: url('/images/coach-andy-allen-5.jpg')"></div>
 
 </section>
 
@@ -114,25 +121,25 @@ hide-from-google: false
 
       <!-- Name -->
       <div class="relative mb-6">
-        <input type="text" name="name" id="name" required 
+        <input type="text" name="name" id="name" required
           class="w-full border-b-2 border-gray-300 focus:outline-none focus:border-feature peer">
         <label for="name" class="absolute left-0 -bottom-5 text-gray-600 text-sm">Name</label>
       </div>
-  
+
       <!-- Email -->
       <div class="relative mb-6">
-        <input type="email" name="email" id="email" required 
+        <input type="email" name="email" id="email" required
           class="w-full border-b-2 border-gray-300 focus:outline-none focus:border-feature peer">
         <label for="email" class="absolute left-0 -bottom-5 text-gray-600 text-sm">Email</label>
       </div>
-  
+
       <!-- Message -->
       <div class="relative mb-6">
-        <textarea name="message" id="message" required 
-          class="w-full h-32 p-4 border border-gray-300 focus:outline-none focus:border-feature" 
+        <textarea name="message" id="message" required
+          class="w-full h-32 p-4 border border-gray-300 focus:outline-none focus:border-feature"
           placeholder="Type your message here"></textarea>
       </div>
-  
+
       <!-- Submit button -->
       <button type="submit" class="button hover:bg-blue-600">
         Submit
