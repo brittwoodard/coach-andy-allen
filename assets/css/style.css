@@ -490,11 +490,9 @@ nav a:hover {
   transition-duration: 500ms;
 }
 /* Images */
-.bg-image-style {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+.bg-top-25 {
+        background-position: 50% 25%;
+    }
 /* Forms */
 .focus-main:focus {
   outline: 2px solid transparent;
@@ -522,15 +520,6 @@ nav a:hover {
 }
 .left-0 {
   left: 0px;
-}
-.right-\[12\%\] {
-  right: 12%;
-}
-.top-\[28\%\] {
-  top: 28%;
-}
-.top-\[40\%\] {
-  top: 40%;
 }
 .right-\[10\%\] {
   right: 10%;
@@ -617,8 +606,8 @@ nav a:hover {
 .h-screen {
   height: 100vh;
 }
-.min-h-\[70vh\] {
-  min-height: 70vh;
+.min-h-\[85vh\] {
+  min-height: 85vh;
 }
 .w-\[70\%\] {
   width: 70%;
@@ -806,9 +795,6 @@ nav a:hover {
 @media (min-width: 1024px) {
   .lg\:right-\[18\%\] {
     right: 18%;
-  }
-  .lg\:right-\[40\%\] {
-    right: 40%;
   }
   .lg\:top-\[40\%\] {
     top: 40%;
