@@ -456,6 +456,16 @@ p:last-child {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+/* Typography */
+.heading-lg {
+  font-size: 2.5rem;
+  line-height: 1.2em;
+}
+.heading-md {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.2em;
+}
 /* Images */
 .bg-image-style {
   background-size: cover;
@@ -524,6 +534,12 @@ p:last-child {
 .mt-4 {
   margin-top: 1rem;
 }
+.mt-8 {
+  margin-top: 2rem;
+}
+.mb-0 {
+  margin-bottom: 0px;
+}
 .block {
   display: block;
 }
@@ -547,6 +563,9 @@ p:last-child {
 }
 .h-screen {
   height: 100vh;
+}
+.h-\[5rem\] {
+  height: 5rem;
 }
 .w-full {
   width: 100%;
@@ -650,9 +669,6 @@ p:last-child {
   font-size: 1.5rem;
   line-height: 2rem;
 }
-.text-\[2\.5rem\] {
-  font-size: 2.5rem;
-}
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -663,6 +679,12 @@ p:last-child {
 }
 .font-light {
   font-weight: 300;
+}
+.font-extralight {
+  font-weight: 200;
+}
+.italic {
+  font-style: italic;
 }
 .text-gray-600 {
   --tw-text-opacity: 1;

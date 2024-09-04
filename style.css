@@ -34,6 +34,15 @@
 
 @layer components {
 
+    /* Typography */
+    .heading-lg {
+        @apply text-[2.5rem] leading-[1.2em]
+    }
+
+    .heading-md {
+        @apply text-[1.5rem] leading-[1.2em] mb-4 
+    }
+
     /* Images */
     .bg-image-style {
         @apply bg-cover bg-no-repeat bg-center
