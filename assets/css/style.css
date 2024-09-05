@@ -637,6 +637,12 @@ nav a:hover {
 .h-screen {
   height: 100vh;
 }
+.h-\[53vh\] {
+  height: 53vh;
+}
+.h-\[60vh\] {
+  height: 60vh;
+}
 .min-h-\[85vh\] {
   min-height: 85vh;
 }
