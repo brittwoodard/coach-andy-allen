@@ -10,15 +10,15 @@ links:
     url: /index.html
   link_2: 
     title: Contact
-    url: /contact.html
+    url: /homepage.html#contact
 ---
 
 <section class="flex justify-center justify-items-center text-center items-center h-screen">
 
     <div>
-        <h1 class="text-2xl mb-8">{{page.heading}}</h1>
+        <h1 class="text-2xl mb-8"><span class="font-light">Page</span> Note Found</h1>
         <p>{{page.description_html}}</p>
-        <a href="{{page.links.link_1.url}}" class="link">{{page.links.link_1.title}}</a>
-        <a href="{{page.links.link_2.url}}" class="link">{{page.links.link_2.title}}</a>
+        <a href="{{page.links.link_1.url}}" class="link mx-2">{{page.links.link_1.title}}</a>
+        <a href="{{page.links.link_2.url}}" class="link mx-2">{{page.links.link_2.title}}</a>
     </div>
 </section>
