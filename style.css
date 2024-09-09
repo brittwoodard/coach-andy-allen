@@ -58,7 +58,7 @@
     }
 
     .social-icon {
-        @apply text-main hover:text-feature hover:duration-500 text-2xl mx-6 block
+        @apply text-main hover:text-feature hover:duration-500 text-2xl mx-4 block
     }
 
     /* Images */

@@ -136,10 +136,13 @@ seo:
 
 </section>
 
+<!-- Request a Consultation -->
+ {% include form-consultation.html %}
+
 
 
   <!-- Footer -->
-  <footer class="flex justify-center mt-12">
+  <footer class="flex justify-center mb-12">
 
       <!-- Instagram -->
       <a href="https://www.instagram.com/{{site.data.site-settings.social.instagram_username}}" target="_blank">
@@ -155,5 +158,10 @@ seo:
       <a href="https://www.linkedin.com/in/{{site.data.site-settings.social.linkedin_username}}" target="_blank">
           <i class="social-icon fa-brands fa-linkedin-in"></i>
       </a>
+
+      <!-- Email -->
+      <a href="mailto:{{site.data.site-settings.general.email}}" target="_blank">
+        <i class="social-icon fa-regular fa-envelope"></i>
+    </a>
 
 </footer>
