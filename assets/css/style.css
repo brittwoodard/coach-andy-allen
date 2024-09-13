@@ -661,17 +661,14 @@ nav a:hover {
 .min-h-\[85vh\] {
   min-height: 85vh;
 }
+.w-\[60\%\] {
+  width: 60%;
+}
 .w-\[70\%\] {
   width: 70%;
 }
 .w-full {
   width: 100%;
-}
-.w-\[80\%\] {
-  width: 80%;
-}
-.w-\[60\%\] {
-  width: 60%;
 }
 .max-w-\[23rem\] {
   max-width: 23rem;
@@ -728,6 +725,10 @@ nav a:hover {
   --tw-border-opacity: 1;
   border-color: rgb(1 1 1 / var(--tw-border-opacity));
 }
+.border-main {
+  --tw-border-opacity: 1;
+  border-color: rgb(28 49 106 / var(--tw-border-opacity));
+}
 .bg-light\/0 {
   background-color: rgb(248 248 250 / 0);
 }
@@ -740,6 +741,10 @@ nav a:hover {
 }
 .bg-transparent {
   background-color: transparent;
+}
+.bg-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 248 250 / var(--tw-bg-opacity));
 }
 .bg-contain {
   background-size: contain;
@@ -820,9 +825,6 @@ nav a:hover {
 }
 .font-medium {
   font-weight: 500;
-}
-.uppercase {
-  text-transform: uppercase;
 }
 .italic {
   font-style: italic;
