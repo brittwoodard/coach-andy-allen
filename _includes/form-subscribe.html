@@ -9,6 +9,11 @@
     {% include form-subscribe-content.html %}
 
     <style>
+        .seva-overlay,
+        .formkit-overlay {
+            background: rgba(1, 1, 1, 0.8) !important;
+        }
+
         .seva-modal .formkit-close,
         .formkit-modal .formkit-close {
             background: rgba(0, 0, 0, 0) !important;
@@ -17,7 +22,7 @@
 
         .input-field {
             width: 100%;
-            border-bottom: 1px solid #1c316a;
+            border-bottom: 1px solid #010101;
             background-color: transparent;
             margin-bottom: 0.5rem;
             border-radius: 0;
@@ -25,7 +30,7 @@
 
         .input-field:focus {
             outline: none;
-            border-bottom-color: #CA9D4F;
+            border-bottom-color: #CA9D4F !important;
         }
 
 
