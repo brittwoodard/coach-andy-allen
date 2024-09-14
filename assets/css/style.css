@@ -359,6 +359,10 @@ nav a:hover {
   color: rgb(202 157 79 / var(--tw-text-opacity));
   transition-duration: 500ms;
 }
+ul {
+  margin-left: 0.5rem;
+  list-style-type: disc;
+}
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -557,6 +561,9 @@ nav a:hover {
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
+.m-10p {
+  margin: 10%;
+}
 .m-2 {
   margin: 0.5rem;
 }
@@ -591,6 +598,9 @@ nav a:hover {
 }
 .ml-auto {
   margin-left: auto;
+}
+.mt-16 {
+  margin-top: 4rem;
 }
 .mt-4 {
   margin-top: 1rem;
@@ -733,6 +743,9 @@ nav a:hover {
 }
 .bg-\[center\] {
   background-position: center;
+}
+.bg-left-bottom {
+  background-position: left bottom;
 }
 .bg-no-repeat {
   background-repeat: no-repeat;

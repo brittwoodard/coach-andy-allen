@@ -32,6 +32,10 @@
         @apply font-light uppercase hover:duration-500 hover:text-feature
     }
 
+    ul {
+        @apply list-disc ml-2
+    }
+
 }
 
 
