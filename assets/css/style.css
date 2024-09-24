@@ -575,6 +575,10 @@ ul {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+.my-10p {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -604,6 +608,12 @@ ul {
 }
 .mt-8 {
   margin-top: 2rem;
+}
+.ml-10p {
+  margin-left: 10%;
+}
+.mr-10p {
+  margin-right: 10%;
 }
 .block {
   display: block;
