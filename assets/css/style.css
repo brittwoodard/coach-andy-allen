@@ -742,6 +742,9 @@ ul {
 .bg-transparent {
   background-color: transparent;
 }
+.bg-none {
+  background-image: none;
+}
 .bg-contain {
   background-size: contain;
 }
@@ -914,6 +917,9 @@ ul {
   }
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .md\:bg-\[url\(\'\/images\/coach-andy-allen-6\.png\'\)\] {
+    background-image: url('/images/coach-andy-allen-6.png');
   }
   .md\:font-extralight {
     font-weight: 200;
