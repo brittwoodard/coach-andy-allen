@@ -599,9 +599,6 @@ ul {
 .ml-auto {
   margin-left: auto;
 }
-.mt-16 {
-  margin-top: 4rem;
-}
 .mt-4 {
   margin-top: 1rem;
 }
@@ -735,9 +732,6 @@ ul {
 .bg-transparent {
   background-color: transparent;
 }
-.bg-none {
-  background-image: none;
-}
 .bg-contain {
   background-size: contain;
 }
@@ -749,9 +743,6 @@ ul {
 }
 .bg-left-bottom {
   background-position: left bottom;
-}
-.bg-right {
-  background-position: right;
 }
 .bg-no-repeat {
   background-repeat: no-repeat;
@@ -842,9 +833,6 @@ ul {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.opacity-0 {
-  opacity: 0;
-}
 .outline {
   outline-style: solid;
 }
@@ -899,15 +887,6 @@ ul {
   .md\:mt-16 {
     margin-top: 4rem;
   }
-  .md\:mr-16 {
-    margin-right: 4rem;
-  }
-  .md\:mr-32 {
-    margin-right: 8rem;
-  }
-  .md\:mr-10p {
-    margin-right: 10%;
-  }
   .md\:block {
     display: block;
   }
@@ -925,18 +904,6 @@ ul {
   }
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-  .md\:grid-cols-5 {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
-  .md\:bg-contain {
-    background-size: contain;
-  }
-  .md\:bg-left-bottom {
-    background-position: left bottom;
-  }
-  .md\:bg-no-repeat {
-    background-repeat: no-repeat;
   }
   .md\:font-extralight {
     font-weight: 200;
