@@ -561,9 +561,6 @@ ul {
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
-.m-10p {
-  margin: 10%;
-}
 .m-2 {
   margin: 0.5rem;
 }
@@ -597,23 +594,23 @@ ul {
 .mb-8 {
   margin-bottom: 2rem;
 }
+.ml-10p {
+  margin-left: 10%;
+}
 .ml-4 {
   margin-left: 1rem;
 }
 .ml-auto {
   margin-left: auto;
 }
+.mr-10p {
+  margin-right: 10%;
+}
 .mt-4 {
   margin-top: 1rem;
 }
 .mt-8 {
   margin-top: 2rem;
-}
-.ml-10p {
-  margin-left: 10%;
-}
-.mr-10p {
-  margin-right: 10%;
 }
 .block {
   display: block;

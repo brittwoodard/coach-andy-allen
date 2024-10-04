@@ -1,5 +1,28 @@
 ---
 layout: default
+hero-banner: 
+  image: 
+    image_path: /images/coach-andy-allen-7.png
+    image_focus: 
+      mobile: center
+      deasktop: 
+testimonials:
+  - testimonial_item: |
+      <p>“If you want to bring out the best version of yourself and improve your mental and physical performance, Andy is your guy. If you’re feeling anxious, overwhelmed, or simply not performing at your best, I highly recommend Andy. He has the skills, patience, and tools to help you realize your full potential and become calmer, more relaxed, and more confident.”</p>
+    author: "Don Macpherson, Mind Coach<br>Renowned expert with over 30 years of experience helping elite athletes and high achievers optimize their mental performance"
+  - testimonial_item: |
+      <p>“I’ve known Andy Betancourt for over 20 years. I’ve seen him study, commit, and live the lifestyle he now shares. I don’t know anyone with as much knowledge, or who is as genuinely passionate about people’s development. Andy will bring out the best in you and help you reach the next level. Of that, I have no doubt.”</p>
+    author: "Raúl Munguia, Commercial Development Manager"
+  - testimonial_item: |
+      <p>“I have known Andy for almost 20 years, and his genuine, heartfelt approach as a life coach continues to inspire me deeply. He brings an extraordinary level of clarity, sincerity & care to his work. His dedication to uplift others is truly inspiring. Andy embodies authenticity & integrity, creating a space that is not only empowering but also heart-opening. His guidance fosters holistic development on all levels.</p>
+      <p>I cannot recommend his coaching services enough for anyone seeking profound personal growth & genuine transformation.”</p>
+    author: "Burkhard Langemann - Phycologist, Founder of the Akasha Yoga Academy"
+  - testimonial_item: |
+      <p>“Over the days I spent with Andy, he helped me tackle some deep rooted habits and issues, including a serious case of insomnia that has been bothering me for years. Through a variety of different methods, I am now sleeping - for the first time in years - without sleeping tablets and with significantly less anxiety and worry generally”</p>
+    author: "Katherine Walsh, Communications & Marketing Director"
+  - testimonial_item: |
+      <p>“After only 5 days with him my life changed for the better. Every day me and Andy spend a few hours just talking about me and my issues, he had the patience to listen and he has been the only person so far to understand me and help me fix myself, I never found a guy so nice, gentle and open.”</p>
+    author: "Donald Anderson, Business Entrepreneur"
 seo:
   title: Coach Andy Allen
   description: Renowned as a coach’s coach and a teacher’s teacher, Coach Andy Allen brings over two decades of experience in behavior, neuroscience, and performance coaching. As a skilled behaviorist and mind coach, he has dedicated his career to working with high-achieving individuals. He specializes in helping his clients enhance mental clarity, sharpen focus, and build resilience, using a unique blend of eastern techniques and modern neuroscience.
@@ -9,33 +32,171 @@ seo:
 ---
 
 <!-- Hero Banner Mobile -->
-<section class="md:hidden h-[100vh] relative">
+<section class="md:hidden">
 
-    <!-- Text -->
-    <div class="pt-16 pb-4 px-5p">
-        <h1 class="text-center heading-md">
-            Coming <span class="font-light">Soon</span>
-        </h1>
-    </div>
-  
-    <!-- Image -->
-    <div class="bg-cover bg-no-repeat bg-[center] h-[80vh] absolute bottom-0 w-full"
-        style="background-image: url('/images/coach-andy-allen-6.png');"></div>
-  
-  </section>
-    
+  <!-- Text -->
+  <div class="pt-16 pb-4 px-5p">
+      <h1 class="text-center heading-md">
+          Activate your <span class="font-light">mind</span><br>
+          Unleash your <span class="font-light">peak potential</span>
+      </h1>
+  </div>
+
+  <!-- Image -->
+  <div class="bg-cover bg-no-repeat h-[53vh]"
+      style="background-image: url('{{page.hero-banner.image.image_path}}'); background-position: {{page.hero-banner.image.mobile.image_focus}};"></div>
+
+</section>
 
 <!-- Hero Banner iPad & Desktop -->
 <section class="hidden md:block relative h-[100vh]">
 
+  <!-- Navigation Menu -->
+  <nav class="flex gap-8 justify-between w-[70%] ml-auto border-b border-dark pt-8 pb-4">
+      <a href="#about">About</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#podcast">Podcast</a>
+      <a href="#press" class="pr-5p">Press</a>
+  </nav>
+
   <!-- Image -->
-  <div class="absolute bottom-0 left-0 bg-contain bg-no-repeat h-[70vh] lg:h-[80vh] w-full"
-      style="background-image: url('/images/coach-andy-allen-6.png');"></div>
+  <div class="absolute bottom-0 left-0 bg-contain bg-no-repeat h-[60vh] lg:h-[80vh] w-full"
+      style="background-image: url('{{page.hero-banner.image.image_path}}'); background-position: {{page.hero-banner.image.desktop.image_focus}};"></div>
 
   <!-- Text -->
-  <div class="absolute top-[35%] lg:top-[40%] right-[10%] md:right-[23%] lg:right-[30%] z-10">
+  <div class="absolute top-[35%] lg:top-[40%] right-[10%] lg:right-[18%] z-10">
       <h1 class="text-center heading-md lg:heading-lg">
-          Coming <span class="font-light">Soon</span><br>
+          Activate your <span class="font-light">mind</span><br>
+          Unleash your <span class="font-light">peak potential</span>
       </h1>
   </div>
 </section>
+
+
+<!-- Banner -->
+<section class="bg-main p-5p flex items-center justify-center">
+  <img src="/images/logos/coach-andy-allen-logo-1.jpg" class="h-[6rem]">
+</section>
+
+
+<!-- About -->
+<section id="about" class="lg:grid lg:grid-cols-3">
+
+  <!-- Text -->
+  <div class="col-span-2 p-10p">
+    <h2 class="heading-md"><span class="font-light">Coach</span> Andy Allen</h2>
+
+    <div>
+      <p>Coach Andy Allen is a renowned coach’s coach and a teacher’s teacher with over two decades of experience in behavior, neuroscience, and performance coaching. As a skilled behaviorist and mind coach, Andy has dedicated his career to working with high-achieving individuals. He specializes in helping his clients enhance mental clarity, sharpen focus, and build resilience, using a unique blend of eastern techniques and modern neuroscience.</p>
+      <p>Andy is the Founder of the USA’s largest school of Mind Body Medicine, Yoga Veda Institute, where he has cultivated a legacy of empowering high performers through comprehensive mind-body education. Known for his strong, transformative presence, Andy’s coaching goes beyond conventional methods, addressing the deeper psychological barriers that hinder peak performance and personal fulfillment.</p>
+      <p>With a focus on elite performers, Coach Andy Allen’s mission is to help powerful individuals master their minds, overcome challenges such as stress, anxiety, and confidence issues, and unlock their full potential. Whether on the field or in the boardroom, Andy’s clients achieve lasting success and fulfillment, driven by his expertise in blending ancient wisdom with the latest advancements in neuroscience.</p>
+      <p>Coach Andy Allen is a renowned mind coach with a deep expertise in performance psychology. By blending the power of meditation, advanced neuroscience, and time-honored eastern practices, Andy guides high achievers to realize their fullest potential. His unique approach fosters a state of calm, confidence, and sharp focus, empowering clients to excel in every aspect of their lives. With Andy’s guidance, you’ll develop the mental resilience and clarity needed to achieve your most ambitious goals and lead a life of sustained success and balance.</p>
+    </div>
+  </div>
+
+  <!-- Image -->
+  <div class="bg-cover bg-no-repeat bg-top-25 min-h-[85vh]" style="background-image: url('/images/coach-andy-allen-2.jpg')"></div>
+
+</section>
+
+
+<!-- Testimonials -->
+<section id="testimonials" class="p-10p">
+
+  <!-- Heading -->
+  <h2 class="heading-md text-center mb-0">Client <span class="font-light">Testimonials</span></h2>
+
+  <!-- Line -->
+  <div class="grid grid-cols-2 h-[5rem] mt-8 mb-8">
+      <div class="border-r border-dark"></div>
+      <div></div>
+  </div>
+
+  <!-- Testimonials -->
+  <div class="testimonial-container">
+      {% for item in page.testimonials %}
+      <div class="testimonial-slide text-center">
+          <!-- Testimonial Item -->
+          <div class="testimonial_item italic">
+              {{ item.testimonial_item | markdownify }}
+          </div>
+          <!-- Author -->
+          <p class="testimonial-author text-right font-bold mt-4">
+              — {{ item.author }}
+          </p>
+      </div>
+      {% endfor %}
+  </div>
+
+</section>
+
+<!-- Waitlist -->
+<section id="podcast" class="p-10p bg-main text-light">
+  <h2 class="heading-md">Join the <span class="font-light">Waitlist</span></h2>
+  <div class="w-[60%]">
+    <p>Sign up now to be notified the moment the podcast goes live. Don't miss your chance to be among the first to listen and elevate your journey with Andy's cutting-edge techniques and strategies.</p>
+  </div>
+  <a data-formkit-toggle="6dd59d5430" href="https://coach-andy-allen.ck.page/6dd59d5430" class="button mt-4">Join the Waitlist</a>
+
+</section>
+
+
+<!-- Media -->
+<section id="press"
+    class="grid md:grid-cols-2 lg:mr-10p bg-contain bg-left-bottom bg-no-repeat md:mt-16 border-b border-main mr-10p bg-none md:bg-[url('/images/coach-andy-allen-6.png')]">
+
+    <!-- Left Column -->
+    <div></div>
+
+    <!-- Right Column -->
+    <div>
+        <div class="bg-main p-10p my-10p ml-10p">
+            <h2 class="heading-md text-light">Press & Media Inquiries</h2>
+            <div class="text-light">
+                <p>Andy Allen is a distinguished leader in performance psychology, founder of the USA’s largest school
+                    of Mind Body Medicine, and a seasoned expert in mental mastery, resilience, and peak performance.
+                    With over 20 years of experience, Andy combines meditation, neuroscience, and eastern techniques to
+                    help elite athletes and high achievers excel.</p>
+                <p class="mb-2">Available for:</p>
+                <ul>
+                    <li>Media Interviews and Features</li>
+                    <li>Keynote Speaking and Panels</li>
+                    <li>Expert Commentary</li>
+                </ul>
+                <a href="mailto:coachandyallen@gmail.com?subject=Media%20Inquiry" class="button mt-8">Contact for Media
+                    & Speaking</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Request a Consultation -->
+ {% include form-consultation.html %}
+
+
+
+  <!-- Footer -->
+  <footer class="flex justify-center mt-8 md:mt-0 mb-12">
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/{{site.data.site-settings.social.instagram_username}}" target="_blank">
+          <i class="social-icon fa-brands fa-instagram"></i>
+      </a>
+
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/{{site.data.site-settings.social.facebook_username}}" target="_blank">
+          <i class="social-icon fa-brands fa-facebook-f"></i>
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/{{site.data.site-settings.social.linkedin_username}}" target="_blank">
+          <i class="social-icon fa-brands fa-linkedin-in"></i>
+      </a>
+
+      <!-- Email -->
+      <a href="mailto:{{site.data.site-settings.general.email}}" target="_blank">
+        <i class="social-icon fa-regular fa-envelope"></i>
+    </a>
+
+</footer>
