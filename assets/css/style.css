@@ -494,16 +494,12 @@ ul {
   transition-duration: 500ms;
 }
 .link {
-  margin-bottom: 0.5rem;
-  border-bottom-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(1 1 1 / var(--tw-border-opacity));
-}
-.link:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(202 157 79 / var(--tw-border-opacity));
   --tw-text-opacity: 1;
   color: rgb(202 157 79 / var(--tw-text-opacity));
+}
+.link:hover {
+  --tw-text-opacity: 1;
+  color: rgb(28 49 106 / var(--tw-text-opacity));
   transition-duration: 500ms;
 }
 .social-icon {

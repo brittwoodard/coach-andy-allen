@@ -58,7 +58,7 @@
     }
 
     .link {
-        @apply mb-2 border-b border-dark hover:duration-500 hover:text-feature hover:border-feature
+        @apply text-feature hover:duration-500 hover:text-main
     }
 
     .social-icon {
