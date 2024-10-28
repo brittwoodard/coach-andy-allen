@@ -656,6 +656,9 @@ ul {
 .min-h-\[85vh\] {
   min-height: 85vh;
 }
+.min-h-\[60vh\] {
+  min-height: 60vh;
+}
 .w-\[60\%\] {
   width: 60%;
 }
