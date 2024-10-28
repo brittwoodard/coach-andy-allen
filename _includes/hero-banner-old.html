@@ -1,0 +1,42 @@
+<!-- Hero Banner Mobile -->
+<section class="md:hidden">
+
+    <!-- Text -->
+    <div class="pt-16 pb-4 px-5p">
+        <h1 class="text-center heading-md">
+            What sets the <span class="font-light">greatest</span>apart?
+            Unleash your <span class="font-light">peak potential</span>
+        </h1>
+    </div>
+
+    <!-- Image -->
+    <div class="bg-cover bg-no-repeat h-[53vh]"
+        style="background-image: url('{{page.hero-banner.image.image_path}}'); background-position: {{page.hero-banner.image.mobile.image_focus}};">
+    </div>
+
+</section>
+
+<!-- Hero Banner iPad & Desktop -->
+<section class="hidden md:block relative h-[100vh]">
+
+    <!-- Navigation Menu -->
+    <nav class="flex gap-8 justify-between w-[70%] ml-auto border-b border-dark pt-8 pb-4">
+        <a href="#about">About</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#podcast">Podcast</a>
+        <a href="#press" class="pr-5p">Press</a>
+    </nav>
+
+    <!-- Image -->
+    <div class="absolute bottom-0 left-0 bg-contain bg-no-repeat h-[60vh] lg:h-[80vh] w-full"
+        style="background-image: url('{{page.hero-banner.image.image_path}}'); background-position: {{page.hero-banner.image.desktop.image_focus}};">
+    </div>
+
+    <!-- Text -->
+    <div class="absolute top-[35%] lg:top-[40%] right-[10%] lg:right-[18%] z-10">
+        <h1 class="text-center heading-md lg:heading-lg">
+            Activate your <span class="font-light">mind</span><br>
+            Unleash your <span class="font-light">peak potential</span>
+        </h1>
+    </div>
+</section>
