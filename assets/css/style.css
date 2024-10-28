@@ -521,11 +521,6 @@ ul {
   transition-duration: 500ms;
 }
 /* Images */
-.bg-image-style {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .bg-top-25 {
         background-position: 50% 25%;
     }
@@ -566,9 +561,6 @@ ul {
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
-.col-span-3 {
-  grid-column: span 3 / span 3;
-}
 .m-2 {
   margin: 0.5rem;
 }
@@ -596,6 +588,9 @@ ul {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
+.mb-4 {
+  margin-bottom: 1rem;
+}
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -619,15 +614,6 @@ ul {
 }
 .mt-8 {
   margin-top: 2rem;
-}
-.mt-24 {
-  margin-top: 6rem;
-}
-.mb-4 {
-  margin-bottom: 1rem;
-}
-.mt-\[20\%\] {
-  margin-top: 20%;
 }
 .mt-\[15\%\] {
   margin-top: 15%;
@@ -656,6 +642,9 @@ ul {
 .h-\[100vh\] {
   height: 100vh;
 }
+.h-\[50vh\] {
+  height: 50vh;
+}
 .h-\[53vh\] {
   height: 53vh;
 }
@@ -677,41 +666,20 @@ ul {
 .h-screen {
   height: 100vh;
 }
-.h-\[50vh\] {
-  height: 50vh;
+.min-h-\[100vh\] {
+  min-height: 100vh;
 }
 .min-h-\[60vh\] {
   min-height: 60vh;
 }
-.min-h-\[90vh\] {
-  min-height: 90vh;
-}
-.min-h-\[80vh\] {
-  min-height: 80vh;
-}
-.min-h-\[70vh\] {
-  min-height: 70vh;
-}
-.min-h-\[100vh\] {
-  min-height: 100vh;
-}
-.w-\[60\%\] {
-  width: 60%;
-}
 .w-\[70\%\] {
   width: 70%;
-}
-.w-full {
-  width: 100%;
-}
-.w-\[50\%\] {
-  width: 50%;
 }
 .w-\[80\%\] {
   width: 80%;
 }
-.w-\[90\%\] {
-  width: 90%;
+.w-full {
+  width: 100%;
 }
 .max-w-\[23rem\] {
   max-width: 23rem;
@@ -724,12 +692,6 @@ ul {
 }
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 .flex-wrap {
   flex-wrap: wrap;
@@ -746,14 +708,14 @@ ul {
 .justify-items-center {
   justify-items: center;
 }
+.gap-10p {
+  gap: 10%;
+}
 .gap-16 {
   gap: 4rem;
 }
 .gap-8 {
   gap: 2rem;
-}
-.gap-10p {
-  gap: 10%;
 }
 .rounded-none {
   border-radius: 0px;
@@ -791,9 +753,6 @@ ul {
 }
 .bg-transparent {
   background-color: transparent;
-}
-.bg-\[\/images\/coach-andy-allen-7\.png\] {
-  background-color: /images/coach-andy-allen-7.png;
 }
 .bg-none {
   background-image: none;
@@ -947,11 +906,11 @@ ul {
 }
 
 @media (min-width: 768px) {
-  .md\:right-\[23\%\] {
-    right: 23%;
-  }
   .md\:-left-10p {
     left: -10%;
+  }
+  .md\:right-\[23\%\] {
+    right: 23%;
   }
   .md\:mt-0 {
     margin-top: 0px;
@@ -971,6 +930,9 @@ ul {
   .md\:w-\[40\%\] {
     width: 40%;
   }
+  .md\:w-\[60\%\] {
+    width: 60%;
+  }
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -986,6 +948,9 @@ ul {
 }
 
 @media (min-width: 1024px) {
+  .lg\:left-0 {
+    left: 0px;
+  }
   .lg\:right-\[18\%\] {
     right: 18%;
   }
@@ -994,9 +959,6 @@ ul {
   }
   .lg\:top-\[40\%\] {
     top: 40%;
-  }
-  .lg\:left-0 {
-    left: 0px;
   }
   .lg\:mr-10p {
     margin-right: 10%;
