@@ -927,6 +927,9 @@ ul {
   .md\:hidden {
     display: none;
   }
+  .md\:min-h-\[80vh\] {
+    min-height: 80vh;
+  }
   .md\:w-\[40\%\] {
     width: 40%;
   }
@@ -968,6 +971,9 @@ ul {
   }
   .lg\:h-\[80vh\] {
     height: 80vh;
+  }
+  .lg\:min-h-\[60vh\] {
+    min-height: 60vh;
   }
   .lg\:max-w-\[38rem\] {
     max-width: 38rem;
