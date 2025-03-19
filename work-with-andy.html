@@ -8,6 +8,8 @@ services:
   image: 
     image_path: /images/coach-andy-allen-10.jpg
     image_focus: 
+cta: 
+  link: https://calendly.com/contact-coachandyallen/30min
 seo:
   title: Work with Coach Andy Allen
   description: Renowned as a coach’s coach and a teacher’s teacher, Coach Andy Allen brings over two decades of experience in behavior, neuroscience, and performance coaching. As a skilled behaviorist and mind coach, he has dedicated his career to working with high-achieving individuals. He specializes in helping his clients enhance mental clarity, sharpen focus, and build resilience, using a unique blend of eastern techniques and modern neuroscience.
@@ -17,17 +19,18 @@ seo:
 ---
 
 <!-- Hero Banner Mobile -->
-<section class="grid grid-cols-2">
+<section class="md:grid md:grid-cols-2">
 
   <!-- Left Column / Image -->
   <div class="bg-image-style min-h-[100vh]" style="background-image: url('{{ page.hero-banner.image.image_path }}'); background-position: {{ page.hero-banner.image.image_focus }};"></div>
 
   <!-- Right Column / Text -->
-  <div class="flex items-center">
+  <div class="flex items-center border-b border-dark mx-8 md:mx-0">
     <div>
-      <h1 class="heading-lg text-center p-10p">Work with <span class="font-light">Coach Andy Allen</span></h1>
+      <h1 class="heading-lg text-center py-10p md:p-10p my-20 md:my-0">Work with <span class="font-light">Coach Andy Allen</span></h1>
     </div>
   </div>
+
 </section>
 
 <!-- Services -->
@@ -38,7 +41,7 @@ seo:
     <h2 class="heading-md mb-4">Perception Shift <span class="font-light">Single Session</span></h2>
     <p>Feeling stuck or facing a specific challenge? This session offers a fresh perspective and practical solutions. We’ll work together to identify the root of the issue, explore new possibilities, and create a realistic plan to move forward with confidence.</p>
     <p class="uppercase my-8">Available via phone or video</p>
-    <a href="#" class="link-dark">Get more info.</a>
+    <a href="{{ page.cta.link }}" target="_blank" class="link-dark">Get more info.</a>
   </div>
 
     <!-- Multiple Sessions -->
@@ -47,25 +50,28 @@ seo:
         <h2 class="heading-md mb-4">Perception Shift <span class="font-light">Multiple Sessions</span></h2>
         <p>For those committed to lasting change and structured personal growth, this option offers sustained support over a minimum of three months (extendable as needed). Together, we’ll cultivate a deeper mindset shift, reinforcing lasting transformation.</p>
         <p class="uppercase my-8">Available via phone or video</p>
-        <a href="#" class="link-light">Get more info.</a>
+        <a href="{{ page.cta.link }}" target="_blank" class="link-light">Get more info.</a>
       </div>
     </div>
 
     <!-- Multiple Sessions -->
-    <div class="grid grid-cols-3">
+    <div class="md:grid md:grid-cols-3">
 
       <!-- Left Column / Image -->
-      <div class="bg-image-style min-h-[80vh]" style="background-image: url('{{ page.services.image.image_path }}'); background-position: {{ page.services.image.image_focus }};"></div>
+      <div class="hidden md:block bg-image-style min-h-[80vh]" style="background-image: url('{{ page.services.image.image_path }}'); background-position: {{ page.services.image.image_focus }};"></div>
 
       <!-- Right Column / Text -->
       <div class="flex items-center col-span-2">
-        <div class="p-10p">
+        <div class="p-10p my-20 md:my-0">
           <h2 class="heading-md mb-4">The Shadow Program <span class="font-light">On-Site, Full Immersion</span></h2>
           <p>Experience a transformative breakthrough with this exclusive, results-driven program. For seven days, I work directly with you in your work environment, providing real-time observation, analysis, and personalized coaching. This immersive approach guarantees rapid, profound shifts in mindset and performance.</p>
           <p class="uppercase my-8">Available via in-person</p>
-          <a href="#" class="link-dark">Get more info.</a>
+          <a href="{{ page.cta.link }}" target="_blank" class="link-dark">Get more info.</a>
         </div>
       </div>
+
+      <!-- Mobile Image -->
+      <div class="md:hidden bg-image-style min-h-[80vh] order-last md:order-first" style="background-image: url('{{ page.services.image.image_path }}'); background-position: {{ page.services.image.image_focus }};"></div>
 
     </div>
 
@@ -74,7 +80,7 @@ seo:
       <h2 class="heading-md mb-4">Custom Coaching Program <span class="font-light">Personalised</span></h2>
       <p>Your journey to success is unique. Let’s create a coaching program that’s designed specifically for you. Through a detailed consultation, we’ll explore your aspirations, identify your challenges, and develop a tailored plan to help you achieve your full potential.</p>
       <p class="uppercase my-8">Available via phone, video or in-person</p>
-      <a href="#" class="link-dark">Get more info.</a>
+      <a href="{{ page.cta.link }}" target="_blank" class="link-dark">Get more info.</a>
     </div>
 
 </section>

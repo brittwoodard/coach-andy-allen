@@ -55,9 +55,11 @@ seo:
 
 <!-- Hero Banner -->
 <section class="hidden md:block min-h-[100vh]">
+
   <!-- Navigation Menu -->
-  <nav class="flex gap-8 justify-between w-[70%] ml-auto border-b border-dark pt-8 pb-4">
+  <nav class="flex gap-8 justify-between md:w-[75%] lg:w-[70%] ml-auto border-b border-dark pt-8 pb-4">
       <a href="#about">About</a>
+      <a href="/work-with-andy.html">Work with Andy</a>
       <a href="#testimonials">Testimonials</a>
       <a href="#podcast">Podcast</a>
       <a href="#press" class="pr-5p">Press</a>
@@ -179,30 +181,3 @@ seo:
 
 <!-- Request a Consultation -->
  {% include form-consultation.html %}
-
-
-
-  <!-- Footer -->
-  <footer class="flex justify-center mt-8 md:mt-0 mb-12">
-
-      <!-- Instagram -->
-      <a href="https://www.instagram.com/{{site.data.site-settings.social.instagram_username}}" target="_blank">
-          <i class="social-icon fa-brands fa-instagram"></i>
-      </a>
-
-      <!-- Facebook -->
-      <a href="https://www.facebook.com/{{site.data.site-settings.social.facebook_username}}" target="_blank">
-          <i class="social-icon fa-brands fa-facebook-f"></i>
-      </a>
-
-      <!-- LinkedIn -->
-      <a href="https://www.linkedin.com/in/{{site.data.site-settings.social.linkedin_username}}" target="_blank">
-          <i class="social-icon fa-brands fa-linkedin-in"></i>
-      </a>
-
-      <!-- Email -->
-      <a href="mailto:{{site.data.site-settings.general.email}}" target="_blank">
-        <i class="social-icon fa-regular fa-envelope"></i>
-    </a>
-
-</footer>

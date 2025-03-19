@@ -555,6 +555,92 @@ ul {
   background-repeat: no-repeat;
 }
 /* Forms */
+/* Mobile Menu */
+.mobile-button {
+        position: fixed;
+        top: 3.2vh;
+        right: 2vh;
+        z-index: 40;
+        padding: 0.5rem;
+    }
+.mobile-button span {
+        width: 2rem;
+        border: 0.5px solid var(--dark);
+        background-color: var(--dark);
+        display: block;
+        border-radius: 22px;
+        transition: 2s;
+    }
+.mobile-button.active span {
+        border-color: var(--dark);
+        background-color: var(--dark);
+    }
+.mobile-top,
+    .mobile-bottom {
+        position: absolute;
+    }
+.mobile-top {
+        top: -02px;
+    }
+.mobile-bottom {
+        bottom: -02px;
+    }
+.mobile-button.active .mobile-top {
+        border-color: var(--featured);
+        position: absolute;
+        top: 8px;
+        transform: rotateZ(45deg);
+    }
+.mobile-button.active .mobile-middle {
+        /*   transform: rotateZ(270deg); */
+        border-color: var(--featured);
+        background-color: var(--featured);
+    }
+.mobile-button.active .mobile-bottom {
+        border-color: var(--featured);
+        position: absolute;
+        bottom: 8px;
+        transform: rotateZ(-45deg);
+    }
+.mobile-menu {
+        display: flex;
+        position: fixed;
+        top: 0vh;
+        left: 100vw;
+        right: -100vw;
+        bottom: 0vh;
+        background-color: var(--main);
+        padding: 5%;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+        z-index: 20;
+        transition: 1s;
+        align-content: space-around;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+.mobile-menu.active {
+  left: 0px;
+  right: 0px;
+}
+@media (min-width: 768px) {
+  .mobile-menu.active {
+    left: 50%;
+  }
+}
+.mobile-menu a {
+        text-decoration: none;
+        font-size: 1.25rem;
+        font-weight: 300;
+        color: var(--x-dark);
+        display: block;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        white-space: nowrap;
+        text-transform: uppercase;
+    }
+.mobile-menu a:hover {
+        color: var(--featured);
+    }
 .fixed {
   position: fixed;
 }
@@ -588,6 +674,9 @@ ul {
 .z-20 {
   z-index: 20;
 }
+.order-last {
+  order: 9999;
+}
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -602,9 +691,17 @@ ul {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 .my-10p {
   margin-top: 10%;
   margin-bottom: 10%;
+}
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .my-8 {
   margin-top: 2rem;
@@ -615,9 +712,6 @@ ul {
 }
 .mb-10 {
   margin-bottom: 2.5rem;
-}
-.mb-12 {
-  margin-bottom: 3rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -730,9 +824,6 @@ ul {
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -768,6 +859,9 @@ ul {
 }
 .border-r {
   border-right-width: 1px;
+}
+.border-t {
+  border-top-width: 1px;
 }
 .border-dark {
   --tw-border-opacity: 1;
@@ -825,6 +919,10 @@ ul {
   padding-left: 10%;
   padding-right: 10%;
 }
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 .px-5p {
   padding-left: 5%;
   padding-right: 5%;
@@ -833,9 +931,17 @@ ul {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+.py-10p {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
 .py-28 {
   padding-top: 7rem;
   padding-bottom: 7rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .pb-12 {
   padding-bottom: 3rem;
@@ -897,6 +1003,10 @@ ul {
 .italic {
   font-style: italic;
 }
+.text-feature {
+  --tw-text-opacity: 1;
+  color: rgb(202 157 79 / var(--tw-text-opacity));
+}
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
@@ -930,6 +1040,14 @@ ul {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
+:root {
+    --featured: #CA9D4F;
+    --dark: #010101;
+    --x-dark: red;
+    --main: #1c316a;
+    --light: #f8f8fa;
+}
+
 
 /* ----------- Default Styles to apply to the whole project  --------- */
 
@@ -960,6 +1078,17 @@ ul {
   .md\:right-\[23\%\] {
     right: 23%;
   }
+  .md\:order-first {
+    order: -9999;
+  }
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .md\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -971,6 +1100,9 @@ ul {
   }
   .md\:flex {
     display: flex;
+  }
+  .md\:grid {
+    display: grid;
   }
   .md\:hidden {
     display: none;
@@ -984,6 +1116,9 @@ ul {
   .md\:w-\[60\%\] {
     width: 60%;
   }
+  .md\:w-\[75\%\] {
+    width: 75%;
+  }
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -992,6 +1127,9 @@ ul {
   }
   .md\:bg-\[url\(\'\/images\/coach-andy-allen-6\.png\'\)\] {
     background-image: url('/images/coach-andy-allen-6.png');
+  }
+  .md\:p-10p {
+    padding: 10%;
   }
   .md\:font-extralight {
     font-weight: 200;
