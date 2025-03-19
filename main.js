@@ -1,3 +1,14 @@
+// Mobile Menu
+// A $( document ).ready() block.
+$(document).ready(function () {
+    $(document).ready(function () {
+        $(".mobile-button").click(function () {
+            $(".mobile-button").toggleClass("active");
+            $(".mobile-menu").toggleClass("active");
+        });
+    });
+});
+
 $('.testimonial-container').slick({
 	autoplay: true, // Do we want it to autoplay? true or false
 	autoplaySpeed: 4000, // How long between each slide when auto-playing
