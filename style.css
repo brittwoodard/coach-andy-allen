@@ -61,6 +61,10 @@
         @apply text-feature hover:duration-500 hover:text-main
     }
 
+    .link-dark {
+        @apply lowercase pb-2 border-b border-main hover:duration-500 hover:text-feature hover:border-feature
+    }
+
     .social-icon {
         @apply text-main hover:text-feature hover:duration-500 text-2xl mx-4 block
     }

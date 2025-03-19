@@ -506,6 +506,20 @@ ul {
   color: rgb(28 49 106 / var(--tw-text-opacity));
   transition-duration: 500ms;
 }
+.link-dark {
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(28 49 106 / var(--tw-border-opacity));
+  padding-bottom: 0.5rem;
+  text-transform: lowercase;
+}
+.link-dark:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(202 157 79 / var(--tw-border-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(202 157 79 / var(--tw-text-opacity));
+  transition-duration: 500ms;
+}
 .social-icon {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -786,6 +800,10 @@ ul {
 .p-5p {
   padding: 5%;
 }
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
 .px-10p {
   padding-left: 10%;
   padding-right: 10%;
@@ -793,6 +811,10 @@ ul {
 .px-5p {
   padding-left: 5%;
   padding-right: 5%;
+}
+.py-10p {
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 .pb-12 {
   padding-bottom: 3rem;
