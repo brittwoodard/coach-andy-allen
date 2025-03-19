@@ -520,6 +520,20 @@ ul {
   color: rgb(202 157 79 / var(--tw-text-opacity));
   transition-duration: 500ms;
 }
+.link-light {
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(248 248 250 / var(--tw-border-opacity));
+  padding-bottom: 0.5rem;
+  text-transform: lowercase;
+}
+.link-light:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(202 157 79 / var(--tw-border-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(202 157 79 / var(--tw-text-opacity));
+  transition-duration: 500ms;
+}
 .social-icon {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -591,6 +605,10 @@ ul {
 .my-10p {
   margin-top: 10%;
   margin-bottom: 10%;
+}
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .mb-0 {
   margin-bottom: 0px;
@@ -800,10 +818,6 @@ ul {
 .p-5p {
   padding: 5%;
 }
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
 .px-10p {
   padding-left: 10%;
   padding-right: 10%;
@@ -812,9 +826,13 @@ ul {
   padding-left: 5%;
   padding-right: 5%;
 }
-.py-10p {
-  padding-top: 10%;
-  padding-bottom: 10%;
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 .pb-12 {
   padding-bottom: 3rem;
@@ -1002,10 +1020,20 @@ ul {
   .lg\:min-h-\[60vh\] {
     min-height: 60vh;
   }
+  .lg\:w-\[70\%\] {
+    width: 70%;
+  }
+  .lg\:w-\[80\%\] {
+    width: 80%;
+  }
   .lg\:max-w-\[38rem\] {
     max-width: 38rem;
   }
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
